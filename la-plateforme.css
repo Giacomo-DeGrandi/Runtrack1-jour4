@@ -1,0 +1,280 @@
+body {background-image: url("pics/studentplat.jpg")}
+
+.header1 {
+        width: 100%;
+        background-color:  #362d3c ;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+}
+
+.nav {  display: flex;
+        height: 50px;
+
+
+
+}
+
+.logo {   flex: 1 ;
+        padding: 0 ;
+        margin: 0;
+
+}
+
+.a {   flex: 3;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        height: 24px;
+
+}       
+
+
+.a li { display: inline;
+        display: flex-end;
+        font-size: 14px;
+        list-style-type: none;
+        padding: 10px;
+        top: 5px;
+        transition: 0.5s;
+}
+
+.a li:hover {   display: inline;
+                display: flex-end;
+                font-size: 16px;
+                list-style-type: none;
+                padding: 10px;
+                top: 6px;
+
+}
+
+
+.aid1 { 
+        font-family: 'Fira Sans', sans-serif;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 0px;
+}
+
+
+.maincont { display: flex;
+            flex-direction: row;
+           background: rgba(55, 46, 61, 0.83);
+           width: 100%;
+
+ }
+
+.article {  
+            width:  90%;
+            display: flex;
+            flex-direction:column;
+            justify-content: space-around;
+
+}
+
+
+
+#h2 { 
+      font-family: 'Fira Sans', sans-serif;
+      width: 80%;
+      font-size: 180%;
+      color: whitesmoke;
+      font-weight: 500;
+      padding: 10%;
+}
+
+.stronger {font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-size: 110.1%;
+}
+
+.button {
+        display: inline-block; 
+        float: right;
+        border: 2px solid #A33987;
+        background-color: #A33987;
+        border-radius: 35px;
+        font-size: 24px;
+        width: 32%;
+        padding: 1%;
+        text-align: center;
+        transition: 1s;
+        position : relative;
+        right: 70px;
+
+}
+
+.button:hover {
+        display: inline-block;
+        border: 2px solid whitesmoke;
+        background-color: #A33987;
+        border-radius: 20px;
+        font-size: 27px;
+        width: 35%;
+        padding: 1%;
+        text-align: center;
+
+
+
+}
+
+.didascalie { display:inline-block; 
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 200;
+        font-size: 40%;;
+        width: 35%;
+        float: right;
+        position: relative;
+        left: 265px;
+        top: 60px;
+
+}
+
+.gradientbkg { 
+                height: 1000px;
+                width: 100%;
+                background-color: #362d3c; /* For browsers that do not support gradients */
+}
+
+#title2 {
+                font-family: 'Fira Sans', sans-serif;
+                width: 100%;
+                font-size: 250%;
+                color: whitesmoke;
+                text-align: center;
+                padding: 40px;
+                margin-top: 0px;
+}
+
+.cols3 {        display: flex;
+                justify-content: space-evenly;
+                height: inherit;
+                background-color:rgba(255, 255, 255, 0.83);
+
+
+
+
+}
+
+#column1 {    
+                width: 26%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                transition: padding 1s;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                margin-top: -10px;
+}
+
+#column1:hover {    
+                width: 27%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 24px;
+}
+
+#column2 {
+                width: 26%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                transition: padding 1s;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                margin-top: -9px;
+
+}
+
+#column2:hover {    
+                width: 27%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 24px;
+}
+
+#column3 {
+                width: 26%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                transition: padding 1s;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly 1%;
+                align-items: center;
+                padding: 10px;
+                margin-top: -9px;
+}
+
+#column3:hover {    
+                width: 27%;
+                background: linear-gradient(#362d3c, rgba(55, 46, 61, 0.5));
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                padding: 24px;
+}
+
+
+.hcol {         
+        text-align: left;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 130%;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 24px;
+        margin-top: 0px;
+}
+
+.button2 {
+        display: inline-block; 
+        border: 2px solid #A33987;
+        background-color: #A33987;
+        border-radius: 35px;
+        font-size: 18px;
+        width: 100%;
+        padding: 1%;
+        text-align: center;
+        position: relative;
+        top: 56px;
+}
+
+.button2b {
+        display: inline-block; 
+        border: 2px solid #A33987;
+        background-color: #A33987;
+        border-radius: 35px;
+        font-size: 18px;
+        width: 100%;
+        padding: 1%;
+        text-align: center;
+        position: relative;
+        top: 30px;
+}
+
+.button2c {
+        display: inline-block; 
+        border: 2px solid #A33987;
+        background-color: #A33987;
+        border-radius: 35px;
+        font-size: 18px;
+        width: 100%;
+        padding: 1%;
+        text-align: center;
+        position: relative;
+        top: 148px;
+}
